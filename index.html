@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Video Streaming - CBC</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.png" />
+    <link
+      href="https://unpkg.com/video.js/dist/video-js.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/@videojs/http-streaming/dist/videojs-http-streaming.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <center>
+        <div id="title"><h2>CBC Provided HLS Stream</h2></div>
+      </center>
+    </div>
+    <video-js
+      id="example-video"
+      class="vjs-default-skin"
+      width="960"
+      height="400"
+      controls
+    >
+      <source
+        src="https://link.theplatform.com/s/ExhSPC/VaoKDMfeOm5r/meta.smil?feed=Player%20Selector
+        %20-%20Prod&format=smil&mbr=true&manifest=m3u"
+        type="application/x-mpegURL"
+      />
+    </video-js>
+    <script src="js/index.js"></script>
+  </body>
+</html>
