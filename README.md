@@ -2,6 +2,10 @@
 
 A page streaming a video from given hls stream. Uses videoJS library.
 
+The demo is available live at: https://unnitmetaliya.github.io/hls-video-streaming-videoJS/
+
+Or, run locally following these instructions.
+
 ## Instructions
 
 Follow these steps.
